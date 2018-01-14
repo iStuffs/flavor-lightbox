@@ -1,1 +1,1 @@
-$(".gallery").flavor(),$(".gallery2").flavor();
+$('[data-flavor="myGallery"]').flavor(),$('[data-flavor="myGallery2"]').flavor();
