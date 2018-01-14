@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+
+<h1 id="flavorlightbox">Flavor lightbox</h1>
+
+<p><img src="docs/flavor-lightbox-title.png" alt="" />
+Yet another jQuery lightbox plugin but with taste.</p>
+
+<h2 id="whatisflavorlightbox">What is Flavor lightbox?</h2>
+
+<p>Flavor lightbox is a simple yet efficient and customizable JQuery plugin to showcase your pictures in a modal lightbox.</p>
+
+<h2 id="whatdoineedtomakeitwork">What do I need to make it work?</h2>
+
+<p>You need to link jQuery and the flavor lightbox script at the end of your body tag.</p>
+
+<pre><code class="html">  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;js/jquery.flavor.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+
+<p>You also need a little stylesheet to display it nicely. Place it in the head of your html file.</p>
+
+<pre><code class="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;css/flavor-lightbox.css&quot;&gt;
+</code></pre>
+
+<h2 id="howdoesitwork">How does it work?</h2>
+
+<p>You need to specify the source of the full width picture in a <code>data-flavor-src</code>.</p>
+
+<p>If you want to create a gallery just enclose your pictures by a parent tag with an attribute <code>data-flavor=&quot;myGalleryName&quot;</code></p>
+
+<p><strong>Example</strong>:</p>
+
+<pre><code class="html">&lt;div data-flavor=&quot;myGallery&quot; class=&quot;gallery&quot;&gt;
+  &lt;div data-flavor-src=&quot;img/picture01.jpg&quot;&gt;&lt;img src=&quot;img/picture01_small.jpg&quot; alt=&quot;Flavor lightbox tastes great&quot;&gt;&lt;/div&gt;
+
+  &lt;div data-flavor-src=&quot;img/picture02.jpg&quot;&gt;&lt;img src=&quot;img/picture02_small.jpg&quot; alt=&quot;Test left/right arrows to navigate&quot;&gt;&lt;/div&gt;
+
+  &lt;div class=&quot;gallery__item&quot; data-flavor-src=&quot;img/picture03.jpg&quot;&gt;&lt;img src=&quot;img/picture03_small.jpg&quot; alt=&quot;You can click to navigate&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;gallery__item&quot; data-flavor-src=&quot;img/picture04.jpg&quot;&gt;&lt;img src=&quot;img/picture04_small.jpg&quot; alt=&quot;Press esc and see ya!&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>To have a more precise look of how it works, go check and inspect the <a href="https://istuffs.github.io/plugin-flavor-lightbox/">flavor lightbox demo page</a>.</p>
+
+<p>&#8212; &#8212;&#8212;&#8212;-</p>
+
+<p>If you like this plugin star it, fork it, spread to the world about how awesome this plugin is.</p>
+
+</body>
+</html>
+
