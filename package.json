@@ -1,0 +1,29 @@
+{
+  "name": "flavor-lightbox",
+  "version": "0.0.1",
+  "description": "A simple jQuery lightbox plguin",
+  "main": "js/jquery.flavor.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iStuffs/flavor-lightbox.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "jquery",
+    "lightbox",
+    "plugin"
+  ],
+  "author": "iStuffs: Samuel DIDIER-LAURENT <istuffs@gmail.com> (https://istuffs.be)",
+  "license": "CC-BY-NC-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/iStuffs/flavor-lightbox/issues"
+  },
+  "homepage": "https://github.com/iStuffs/flavor-lightbox#readme"
+}
